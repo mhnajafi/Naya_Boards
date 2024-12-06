@@ -1,0 +1,5 @@
+board:
+  name: naya_dongle
+  vendor: naya
+  socs:
+  - name: nrf52840
