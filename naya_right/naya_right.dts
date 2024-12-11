@@ -96,12 +96,11 @@
 };
 
 &reg0 {
-	status = "disabled";
+	status = "okay";
 };
 
 &reg1 {
-	regulator-initial-mode = <NRF5X_REG_MODE_LDO>;
-	status = "okay";
+	regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
 };
 
 &adc {
@@ -113,7 +112,6 @@
 };
 
 &uicr {
-	nfct-pins-as-gpios;
 	gpio-as-nreset;
 };
 
