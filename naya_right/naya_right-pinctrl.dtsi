@@ -56,23 +56,23 @@
 	// 	};
 	// };
 
-	pwm0_default: pwm0_default {
-		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 28)>,
-				<NRF_PSEL(PWM_OUT1, 0, 3)>,
-				<NRF_PSEL(PWM_OUT2, 0, 30)>;
-			// nordic,invert;
-		};
-	};
+	// pwm0_default: pwm0_default {
+	// 	group1 {
+	// 		psels = <NRF_PSEL(PWM_OUT0, 0, 28)>,
+	// 			<NRF_PSEL(PWM_OUT1, 0, 3)>,
+	// 			<NRF_PSEL(PWM_OUT2, 0, 30)>;
+	// 		// nordic,invert;
+	// 	};
+	// };
 
-	pwm0_sleep: pwm0_sleep {
-		group1 {
-			psels = <NRF_PSEL(PWM_OUT0, 0, 38)>,
-				<NRF_PSEL(PWM_OUT1, 0, 3)>,
-				<NRF_PSEL(PWM_OUT2, 0, 30)>;
-			low-power-enable;
-		};
-	};
+	// pwm0_sleep: pwm0_sleep {
+	// 	group1 {
+	// 		psels = <NRF_PSEL(PWM_OUT0, 0, 38)>,
+	// 			<NRF_PSEL(PWM_OUT1, 0, 3)>,
+	// 			<NRF_PSEL(PWM_OUT2, 0, 30)>;
+	// 		low-power-enable;
+	// 	};
+	// };
 
 	// spi0_default: spi0_default {
 	// 	group1 {
